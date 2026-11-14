@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!-- Suchobeast Studios · Team page. Every section is labelled with a comment; names and texts are on their own lines, so they are easy to edit. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet the people behind Suchobeast Studios.">
+  <meta name="theme-color" content="#101114">
+  <title>Team · Suchobeast Studios</title>
+  <!-- SEO and social preview tags: replace your-domain.com with your real domain -->
+  <link rel="canonical" href="https://your-domain.com/team.html">
+  <meta property="og:site_name" content="Suchobeast Studios">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Team · Suchobeast Studios">
+  <meta property="og:description" content="Meet the people behind Suchobeast Studios.">
+  <meta property="og:url" content="https://your-domain.com/team.html">
+  <meta property="og:image" content="https://your-domain.com/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Team · Suchobeast Studios">
+  <meta name="twitter:description" content="Meet the people behind Suchobeast Studios.">
+  <meta name="twitter:image" content="https://your-domain.com/assets/images/og-image.jpg">
+  <!-- Favicon (browser tab icon) -->
+  <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+  <link rel="apple-touch-icon" href="assets/images/fav-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- Icon sprite used by the buttons (do not edit) -->
+  <svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true" focusable="false">
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7.5l8.5 6 8.5-6"/></g></symbol>
+  </svg>
+
+  <!-- ===== Header: logo and main navigation ===== -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Suchobeast Studios home">
+      <img src="assets/images/logo.png" alt="" class="brand-logo">
+      <span class="brand-text">Suchobeast Studios</span>
+    </a>
+    <!-- Mobile menu button -->
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+    <!-- Main menu: edit the link names or addresses here -->
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link" href="news.html">News</a>
+      <a class="nav-link active" href="team.html" aria-current="page">Team</a>
+      <a class="nav-link" href="portfolio.html">Portfolio</a>
+      <a class="nav-cta" href="index.html#contact">Get in touch <span>↗</span></a>
+    </nav>
+  </header>
+
+  <!-- ===== Page content ===== -->
+  <main>
+    <!-- ===== Team: intro and member cards ===== -->
+    <section class="team-page">
+      <!-- Background video (assets/videos/team-loop.mp4) -->
+      <video class="team-video" autoplay muted loop playsinline poster="assets/images/hero-poster.jpg">
+        <source src="assets/videos/team-loop.mp4" type="video/mp4">
+      </video>
+      <div class="team-shade"></div>
+      <div class="team-inner">
+        <p class="eyebrow reveal">OUR TEAM</p>
+        <h1 class="type-on-view">The people behind<br><span>our games.</span></h1>
+        <p class="team-intro reveal">Those who worked on the studio projects and made everything possible.</p>
+        <!-- Team member cards: copy a card to add a person (change link, photo, name and role) -->
+        <div class="team-grid">
+          <a class="team-card reveal" href="https://www.roblox.com/users/2882913586/profile" target="_blank" rel="noopener" aria-label="Suchobeast on Roblox">
+            <div class="team-avatar">
+              <img src="assets/images/Founder.jpg" alt="Suchobeast">
+            </div>
+            <h3>Suchobeast</h3>
+            <p>Founder &amp; Lead Developer</p>
+          </a>
+          <a class="team-card reveal" href="https://www.roblox.com/users/1203406911/profile" target="_blank" rel="noopener" aria-label="Zikko on Roblox">
+            <div class="team-avatar">
+              <img src="assets/images/Administrator.jpg" alt="Zikko">
+              <span>?</span>
+            </div>
+            <h3>Zikko</h3>
+            <p>Community Administrator</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Studio story: edit the paragraphs ===== -->
+    <section class="story" id="story">
+      <div class="story-inner">
+        <p class="eyebrow reveal">OUR STORY</p>
+        <h2 class="type-on-view">How the studio<br>was born.</h2>
+        <!-- Story paragraphs -->
+        <div class="story-text reveal">
+          <p>Suchobeast Studios was originally created in 2024 by Suchobeast, with a small but passionate development team.</p>
+          <p>What began as a small group of developers has grown into a studio working on EXTINCTION and PIRATES ERA, with a growing team and a community that helps shape every update.</p>
+          <p>Today our goal is to release fun, interactive and unique games that players want to come back to.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Credits: all staff usernames in one flowing text ===== -->
+    <section class="credits" id="credits">
+      <div class="credits-inner">
+        <p class="eyebrow reveal">COLLABORATORS</p>
+        <h2 class="type-on-view">Meet our<br><span>staff.</span></h2>
+        <!-- ✏️ CREDITS: one single flowing text. To add a person copy a <span class="c-n">@username</span>; for a new role copy a <span class="c-r">Role</span>;
+           blue titles use <span class="c-group">. The text wraps by itself. (c-l = optional slightly bigger name for key people.) -->
+        <div class="credits-block reveal">
+          <p class="credits-text">
+            <span class="c-group">Developers</span>
+
+            <span class="c-r">Programmers</span>
+            <span class="c-n">@vonkacuga</span>
+            <span class="c-n">@wcl4</span>
+
+            <span class="c-r">Terrain Artist</span>
+            <span class="c-n">@megavirus2024_11788</span>
+            <span class="c-n">@theallosaurusman</span>
+            <span class="c-n">@normal_babishguy</span>
+            <span class="c-n">@megafaunaexplained</span>
+
+            <span class="c-r">Animators</span>
+            <span class="c-n">@m1uu_gray</span>
+            <span class="c-n">@togawaa</span>
+            <span class="c-n">@canaparo</span>
+
+            <span class="c-r">Concept Artists</span>
+            <span class="c-n">@vamphier</span>
+            <span class="c-n">@dinocare</span>
+
+            <span class="c-r">Modelers</span>
+            <span class="c-n">@crepiecolour</span>
+
+            <span class="c-r">SFX Artists</span>
+            <span class="c-n">@reaper.art</span>
+
+            <span class="c-r">VFX Artists</span>
+            <span class="c-n">@gabrews</span>
+
+            <span class="c-group">Moderators</span>
+
+            <span class="c-r">Senior Moderators</span>
+            <span class="c-n">@eunknoh</span>
+            <span class="c-n">@commonthresher</span>
+            <span class="c-n">@pat932_</span>
+
+            <span class="c-r">Moderators</span>
+            <span class="c-n">@smile_3319</span>
+            <span class="c-n">@judgenjury37</span>
+            <span class="c-n">@coolookingmonkey</span>
+            <span class="c-n">@aggelosmp00_57418</span>
+
+            <span class="c-group">Testers</span>
+
+            <span class="c-r">Head Testers</span>
+
+            <span class="c-r">QA Assurance</span>
+            <span class="c-n">@.reege.</span>
+            <span class="c-n">@atlium.</span>
+            <span class="c-n">@idb123</span>
+            <span class="c-n">@karwinus2.0</span>
+            <span class="c-n">@dinosaur.simulator</span>
+            <span class="c-n">@0kk7rank</span>
+            <span class="c-n">@ansel0420</span>
+            <span class="c-n">@humildr</span>
+            <span class="c-n">@wxlfeclxpse</span>
+            <span class="c-n">@honkvincible</span>
+            <span class="c-n">@icecze</span>
+            <span class="c-n">@spinofun21</span>
+            <span class="c-n">@jmctastic</span>
+            <span class="c-n">@unknownguyaaa</span>
+            <span class="c-n">@tyrannovenatorsinensis</span>
+            <span class="c-n">@shade_ware</span>
+            <span class="c-n">@knichols180088</span>
+            <span class="c-n">@e3rffff</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Join the team: developer application form ===== -->
+    <section class="contact" id="apply">
+      <div class="contact-inner">
+        <div class="contact-copy-block reveal">
+          <p class="eyebrow">JOIN THE TEAM</p>
+          <h2 class="type-on-view">Apply as a<br><span>developer.</span></h2>
+          <p>We are always looking for talented people. Tell us what you do and show us your work, we read every application.</p>
+          <a class="contact-email" href="mailto:suchobeast08@gmail.com">
+            <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+            suchobeast08@gmail.com
+            <span>↗</span>
+          </a>
+        </div>
+        <!-- Application form (sent with Web3Forms) -->
+        <form class="contact-form reveal" id="apply-form" novalidate data-ajax data-subject="Developer application from" data-success="Application sent. Thank you, we will get back to you if there is a fit.">
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+          <label for="a-name">Name</label>
+          <input id="a-name" name="name" type="text" placeholder="Your name" required>
+          <label for="a-email">Email</label>
+          <input id="a-email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="a-role">Role</label>
+          <select id="a-role" name="role" required>
+            <option value="" disabled selected>Choose your role</option>
+            <option>Programmer</option>
+            <option>3D modeler</option>
+            <option>Map designer</option>
+            <option>UI designer</option>
+            <option>3D animator</option>
+            <option>VFX artist</option>
+            <option>Sound designer</option>
+            <option>Other</option>
+          </select>
+          <label for="a-link">Portfolio</label>
+          <input id="a-link" name="portfolio" type="url" placeholder="Link to your work (Roblox profile, portfolio, GitHub…)">
+          <label for="a-message">About you</label>
+          <textarea id="a-message" name="message" rows="4" placeholder="Your experience and why you want to join" required></textarea>
+          <button class="button button-blue" type="submit">
+            Send application
+            <span>↗</span>
+          </button>
+          <p class="form-note" role="status" aria-live="polite">We usually reply within a few days.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer: links, social icons and legal text ===== -->
+  <footer class="site-footer">
+    <div class="footer-main">
+      <!-- Footer logo and tagline -->
+      <div class="footer-brand">
+        <a class="footer-logo" href="index.html" aria-label="Suchobeast Studios home">
+          <img src="assets/images/logo.png" alt="">
+          <span class="brand-text">Suchobeast Studios</span>
+        </a>
+        <p class="footer-tag">Games to be Experienced.</p>
+      </div>
+      <!-- Footer link columns (Explore / Studio / More) -->
+      <nav class="footer-cols" aria-label="Footer navigation">
+        <div>
+          <h4>Explore</h4>
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="news.html">News</a>
+          <a href="team.html">Our Team</a>
+          <a href="portfolio.html">Portfolio</a>
+        </div>
+        <div>
+          <h4>Studio</h4>
+          <a href="index.html#about">About</a>
+          <a href="team.html#apply">Apply</a>
+          <a href="index.html#contact">Contact</a>
+          <a href="index.html#faq">FAQ</a>
+        </div>
+        <div>
+          <h4>More</h4>
+          <a href="media-kit.html">Media Kit</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+      </nav>
+      <!-- Footer social icons (Twitter, YouTube, Roblox Group) -->
+      <div class="footer-social" aria-label="Social links">
+        <a href="https://x.com/SUCH0B3AST" target="_blank" rel="noopener" aria-label="Twitter">
+          <img src="assets/icons/twitter.svg" alt="">
+        </a>
+        <a href="https://www.youtube.com/@SUCHOB3AST" target="_blank" rel="noopener" aria-label="YouTube">
+          <img src="assets/icons/youtube.svg" alt="">
+        </a>
+        <a href="https://www.roblox.com/communities/16744488/Suchobeast-Studios" target="_blank" rel="noopener" aria-label="Roblox Group">
+          <img src="assets/icons/roblox.svg" alt="">
+        </a>
+      </div>
+    </div>
+    <!-- Copyright and legal disclaimer -->
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Suchobeast Studios. All rights reserved.</p>
+      <p class="footer-legal">Suchobeast Studios is an independent studio and is not affiliated with, endorsed by or sponsored by Roblox Corporation. Roblox and the Roblox logo are trademarks of Roblox Corporation. One Piece and its characters belong to their respective owners; PIRATES ERA is a fan-inspired project.</p>
+    </div>
+  </footer>
+</body>
+</html>
