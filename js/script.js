@@ -72,8 +72,8 @@ if (!reduceMotion && 'IntersectionObserver' in window) {
    Emails are sent with Web3Forms (free, works on any host, including InfinityFree).
    The access key below is public by design (it can only send mail to suchobeast08@gmail.com).
    (If the key is ever replaced by 'PASTE...', the form falls back to FormSubmit.) */
-const WEB3FORMS_KEY = 'c33b6cf3-adea-4993-ba70-253be920801f';
-const CONTACT_EMAIL = 'suchobeast08@gmail.com';
+const WEB3FORMS_KEY = '5e6a5981-7ba7-4de5-876f-fa0874c2532c';
+const CONTACT_EMAIL = 'suchobeast-studios@gmail.com';
 
 async function sendForm(fields, subject) {
   const hasKey = !WEB3FORMS_KEY.startsWith('PASTE');
